@@ -1,4 +1,131 @@
-<body>
-    <h1>Pomodoro Timer First Brainstorm</h1>
-    <h2>brainstorming</h2>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Pomodoro Timer First Brainstorm 
+        </title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="diagram.png">
+    </head>
+    <main>
+        <h1>cse 110 second lab</h1>
+    </main>
+    <header>
+        <div>ALL RECIPE</div>
+        <nav>
+          <ul>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#video">Video</a></li>
+          </ul>
+        </nav>
+    </header>
+    <footer>
+        <h6 id="subscribe">Subscribe</h6>
+        <form onsubmit="alert('Subscribed')">
+          <input type="text" placeholder="Enter Email Address" />
+          <button>Submit</button>
+        </form>
+        <br />
+        <div>&copy; cse110.com</div>
+    </footer>
+    <section>
+        <h2>WWF History</h2>
+        <p>The World Wide Fund</p>
+    </section>
+    <body>
+        <h2>Pomodoro Timer First Brainstorm</h2>
+        <h3>brainstorming:</h3>
+        <p>My friend has <span>blue</span> <b>big </b>eyes.</p>
+        <strong>The strong element is for content that is of greater importance, while the b element is used to draw attention to text without indicating that it's more important.</strong>
+        <p>The <i>i</i> tag displays the text in italic. Like the b tag, 
+            the <i>i</i> tag is also used for presentation purposes. 
+            It represents some part of a text in an alternate voice or 
+            mood or something that indicates a different quality of text. 
+            The <em>em tag</em> specifies the stress emphasis of its contents.</p>
+        
+        <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+
+        <hr>
+
+        <h3>check-ins:</h3>
+        <h4>HTML Forms</h4>
+
+        <form>
+            <fieldset>
+              <legend>Personalia:</legend>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="birthday">Birthday:</label>
+              <input type="date" id="birthday" name="birthday"><br><br>
+              <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+        
+        <label for="textarea1">Input for textarea1:</label><br>
+
+        <textarea id="textarea1" name="textarea1" rows="4" cols="50">
+        You can input here.
+        </textarea>
+        
+        <hr>
+
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+
+
+        <hr>
+        <label for="cars">Choose a car:</label>
+
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <ol><li>person1</li><li>person2</li></ol>
+        <hr>
+        <h3>documentation:</h3>
+        <details>
+            <summary>Epcot Center</summary>
+            <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+        </details>
+
+        <h3>Date:</h3>
+
+        <h3>Attendance list:</h3>
+        <ol><li>person1</li><li>person2</li></ol>
+        <h2>Agenda:</h2>
+        <a href="https://www.apple.com/">Apple!</a>
+        <div class="main-container">123</div>
+        <h2>things that were unfinished business from last meeting:</h2>
+        <h2>things that are new business that need to be talked about</h2>
+        <h2>any miscellaneous comments / questions / concerns that anyone would like to bring up</h2>
+        <h2>pictures of any diagrams / architecture / things that were presented</h2>
+        <P>SWE meetings often have people diagram things on a whiteboard so we want those captured as well</P>
+        <img src="diagram.png" alt="describes the image being shown for screen readers, or if the image can't be displayed"/>
+        <h2 id="audio">audio recording the meeting</h2>
+        <audio controls>
+            <source src="audio1.m4a" type="audio/mp4">
+          Your browser does not support the audio element.
+        </audio>
+        <h2 id="video">video recording of the meeting</h2>
+        <video width="320" height="240" controls>
+            <source src="video1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+    </body>
+</html>
